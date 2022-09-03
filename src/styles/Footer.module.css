@@ -1,0 +1,37 @@
+.container_height{
+margin-top: 516px;
+}
+
+.container {
+	background-color: #241a06;
+	color: #b7b3a7;
+	text-align: center;
+	padding: 3em;
+	
+}
+
+.footer {
+	display: flex;
+  justify-content: center;
+  list-style-type: none;
+	background-color: #241a06;
+	color: #e5e5e5;
+}
+.footer li {
+	margin: 0 2em;
+	
+}
+
+.footer li:hover {
+	color: #ceb747	;
+}
+
+.footer svg{
+	font-size: 1.5em;
+	cursor:pointer;
+}
+
+.container span{
+	color: #ceb747	;
+	font-weight: bold;
+}
