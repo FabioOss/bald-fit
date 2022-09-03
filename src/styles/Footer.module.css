@@ -1,37 +1,43 @@
-.container_height{
-margin-top: 516px;
+.container_footer_height {
+	margin-top: 25%;
+
 }
 
-.container {
+.container_footer {
 	background-color: #241a06;
 	color: #b7b3a7;
 	text-align: center;
-	padding: 3em;
-	
+	padding: 2em;
+
 }
 
 .footer {
 	display: flex;
-  justify-content: center;
-  list-style-type: none;
+	justify-content: center;
+	list-style-type: none;
 	background-color: #241a06;
 	color: #e5e5e5;
 }
+
 .footer li {
 	margin: 0 2em;
-	
 }
 
 .footer li:hover {
-	color: #ceb747	;
+	color: #ceb747;
+	
 }
 
-.footer svg{
+.footer svg {
 	font-size: 1.5em;
-	cursor:pointer;
+	cursor: pointer;
 }
 
-.container span{
-	color: #ceb747	;
+.container_footer span {
+	background-color: #202020;
+	margin: 0 0.25em;
+	padding: 3px;
+	color: #ceb747;
 	font-weight: bold;
+
 }

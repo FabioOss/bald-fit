@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 export default function Footer() {
 	return (
-		<div className={styles.container_height}>
-			<div className={styles.container}>
+		<div className={styles.container_footer_height}>
+			<div className={styles.container_footer}>
 				<hr />
 				<ul className={styles.footer}>
 					<li> <FaFacebook /> </li>
