@@ -6,7 +6,7 @@
 .container_footer {
 	background: rgb(0, 34, 68);
 	background: linear-gradient(90deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
-	color: white;
+	color: #fffaff;
 	text-align: center;
 	padding: 2em;
 
@@ -16,7 +16,7 @@
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	color: white;
+	color: #fffaff;
 }
 
 .footer li {
@@ -37,7 +37,6 @@
 	background-color: black;
 	margin: 0 0.25em;
 	padding: 3px;
-	color: #c8c800;
-	font-weight: bold;
+	color:#fffaff;
 
 }

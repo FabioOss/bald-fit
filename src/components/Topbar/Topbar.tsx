@@ -1,4 +1,4 @@
-import { FaBars, FaSearch } from 'react-icons/fa'
+import { FaBars, FaDumbbell, FaSearch } from 'react-icons/fa'
 import styles from './Topbar.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -23,11 +23,12 @@ export default function Topbar() {
 					<button>Menu <FaBars /></button>
 				</div>
 				<div className={styles.title}>
-					<h1> <Link href='/'><a>BaldFit</a></Link></h1>
+					<h1><a href='/'>BaldFit</a></h1>
+					
 					<h3>O maior blog de carecas do mundo</h3>
 				</div>
 				<div className={styles.search}>
-					<input className={styles.search_box} type='text' autoComplete='on' name='search' placeholder=' Pesquisar ...' value={busca} onChange={(ev) => setBusca(ev.target.value)} q maxLength={20} ></input >
+					<input className={styles.search_box} type='text' autoComplete='on' name='search' placeholder=' Pesquisar ...' value={busca} onChange={(ev) => setBusca(ev.target.value)}  maxLength={20} ></input >
 					<ul className={styles.search_list}>
 						{articleFilter.map((article) => (
 							<li key={article}>{article}</li>

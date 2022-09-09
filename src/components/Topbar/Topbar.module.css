@@ -25,12 +25,7 @@
     text-align: center;
 }
 
-.categories {
-    padding: 0.5em;
-    color: white;
-    background: rgb(0, 34, 68);
-    background: linear-gradient(45deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
-}
+
 
 .title {
     text-align: center;
@@ -46,12 +41,17 @@
     text-decoration: none;
 }
 
-.title a:hover {
+.title a span{
     color: black;
-    cursor: pointer;
-    font-weight: bold;
+    
 }
 
+.categories {
+    padding: 0.5em;
+    color: white;
+    background: rgb(0, 34, 68);
+    background: linear-gradient(45deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
+}
 
 .categories_list {
     padding: 3px;
