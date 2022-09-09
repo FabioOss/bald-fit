@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import Topbar from "../components/Topbar";
+import Footer from "../components/Footer/Footer";
+import Topbar from "../components/Topbar/Topbar";
 
 
 export default function Home(){

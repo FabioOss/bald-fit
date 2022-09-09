@@ -1,13 +1,17 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif ;
 }
 
-html, 
+html,
 body,
- #root {
-  background-color: #d6d876;
-  height: 100%;  
+#root {
+  background-color: #f0f0f0;
+  height: 100%;
+}
+
+input:focus {
+  outline: none;
 }
