@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Topbar />
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       <Footer />
     </>
   )

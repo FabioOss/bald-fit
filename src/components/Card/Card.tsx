@@ -17,7 +17,7 @@ export default function Card(props: ICardProps): JSX.Element {
 						<h1 >{(article as Record<string, string>).title}</h1>
 						<p>{(article as Record<string, string>).subtitle}</p>
 					</div>
-					</div>	
+				</div>	
 				)
 			}) : <h1>Nenhuma publicação</h1>}
 		</div>	
