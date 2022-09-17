@@ -3,7 +3,10 @@
     background: linear-gradient(90deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
     color: white;
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    padding: 0px 50px;
+    grid-template-columns: 320px 1fr 290px;
+    height: 110px;
+    
 }
 
 .search {
@@ -12,19 +15,35 @@
 }
 
 .search_box {
-    color: white;
-    background: #111214;
-    padding: 0.5em;
-    border: 3px solid black;
+    margin: 5px;
+    color: black;
+    background: white;
+    padding: 5px;
+    border: 2px solid black;
     border-radius: 20px;
 }
 
 .search_list {
-    padding: 5px;
+    margin: 0 40px;
+    padding: 4px;
     list-style-type: none;
-    text-align: center;
+    display: none;
+    
 }
 
+.sidebar a {
+    text-decoration: none;
+    margin: 50px 100px;
+    display: grid;
+    color: white;
+    font-size: 20px;
+}
+
+.sidebar svg:hover {
+    color: black;
+    transition: color .4s;
+    cursor: pointer;
+}
 
 
 .title {
@@ -33,7 +52,7 @@
 }
 
 .title h3 {
-    padding: 20px;
+    padding: 10px;
 }
 
 .title a {
@@ -41,23 +60,25 @@
     text-decoration: none;
 }
 
-.title a span{
+.title a span {
     color: black;
-    
+}
+
+.title a:hover {
+    transition: color .4s;
+    color: black;
 }
 
 .categories {
-    padding: 0.5em;
-    color: white;
     background: rgb(0, 34, 68);
     background: linear-gradient(45deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
 }
 
 .categories_list {
-    padding: 3px;
+    padding: 10px;
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .categories_list li {
@@ -73,5 +94,6 @@
 }
 
 .categories_list a:hover {
+    transition: color .4s;
     color: black;
 }

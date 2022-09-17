@@ -1,7 +1,6 @@
 .container_footer_height {
-	margin-top: 27%;
-
-}
+	margin-top: 32%;
+	}
 
 .container_footer {
 	background: rgb(0, 34, 68);
@@ -25,6 +24,7 @@
 
 .footer li:hover {
 	color: black;
+	transition: color .4s;
 
 }
 

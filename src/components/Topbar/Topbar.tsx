@@ -13,6 +13,7 @@ export default function Topbar() {
 		'Nutrição',
 		'Calvície'
 	]
+
 	const lowerBusca = busca.toLowerCase()
 	const articleFilter = articleList.filter((article) => article.toLowerCase().includes(lowerBusca))
 
@@ -20,7 +21,7 @@ export default function Topbar() {
 		<>
 			<div className={styles.container}>
 				<div className={styles.sidebar}>
-					<button>Menu <FaBars /></button>
+					<a className={styles.menu_button}><FaBars/></a>
 				</div>
 				<div className={styles.title}>
 					<h1><a href='/'>BaldFit</a></h1>
