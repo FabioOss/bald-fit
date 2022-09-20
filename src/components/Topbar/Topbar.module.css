@@ -3,43 +3,21 @@
     background: linear-gradient(90deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
     color: white;
     display: grid;
-    padding: 0px 50px;
     grid-template-columns: 320px 1fr 290px;
-    height: 110px;
-    
-}
-
-.search {
-    padding: 0.5em;
+    height: auto;
 
 }
 
-.search_box {
-    margin: 5px;
-    color: black;
-    background: white;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-left: -10px;
-}
 
-.search_list {
-    margin: 0 40px;
-    padding: 4px;
-    list-style-type: none;
-    display: none;
-    
-}
 
-.sidebar a {
-    text-decoration: none;
-    margin: 50px 100px;
-    display: grid;
-    color: white;
-    font-size: 20px;
-}
+.sidebar svg{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    transition: 1s;
 
+}
 .sidebar svg:hover {
     color: black;
     transition: color .4s;
@@ -50,20 +28,37 @@
 .title {
     text-align: center;
     padding: 2em;
+    
 }
-
+.title h1{
+    margin-left: 70px;
+}
 .title h3 {
     padding: 10px;
 }
 
-.title a {
+.title a {  
     color: white;
     text-decoration: none;
+    transition: 1s;
+
 }
 
-.title a span {
-    color: black;
+.title svg{
+    position: relative;
+    margin-left: 20px;
+    margin-top: -8px;
+    font-size: 40px;
+    transition: 1s;
 }
+.title svg:hover{
+    color: black;
+    cursor: pointer;
+    margin-top: -2px;
+    transition: 0.4s;
+    font-size: 35px;
+}
+
 
 .title a:hover {
     transition: color .4s;
@@ -71,7 +66,7 @@
 }
 
 .categories {
-    background: rgb(0, 34, 68);
+    background: #002244;
     background: linear-gradient(45deg, rgba(0, 34, 68, 1) 25%, rgba(19, 39, 79, 1) 50%, rgba(10, 35, 81, 1) 75%, rgba(31, 48, 94, 1) 100%);
 }
 
@@ -87,14 +82,16 @@
     cursor: pointer;
     font-size: 1.5em;
     font-weight: bold;
+    
 }
 
 .categories_list a {
     text-decoration: none;
     color: white;
+    transition: 1s;
 }
 
 .categories_list a:hover {
-    transition: color .4s;
+    transition: .4s;
     color: black;
 }

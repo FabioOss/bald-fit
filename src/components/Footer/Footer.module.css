@@ -9,14 +9,15 @@
 }
 
 .footer {
-	display: flex;
-	justify-content: center;
+	margin-top: auto;
 	list-style-type: none;
 	color: #fffaff;
 }
 
 .footer li {
+	display: inline;
 	margin: 0 2em;
+	align-items: center;
 }
 
 .footer li:hover {
