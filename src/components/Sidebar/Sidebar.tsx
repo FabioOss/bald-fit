@@ -8,7 +8,7 @@ export interface Toggle{
 
 export default function Sidebar(props: Toggle): JSX.Element  {
 	return (
-		<div style={{visibility: props.switch ? "visible" : "hidden"}} className={styles.sidebar}>
+		<div style={{display: props.switch ? "block" : "none"}} className={styles.sidebar}>
 			<ul>
 				<li>
 					<Link href='/musculacao'>Musculação</Link>

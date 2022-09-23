@@ -9,8 +9,9 @@ import SearchBox from '../SearchBox/SearchBox'
 export default function Topbar() {
 
 	const [isOpen, setIsOpen] = useState(false)
+	
 	const toggle = () => setIsOpen(!isOpen)
-
+	
 	return (
 		<>
 			<div className={styles.container}>

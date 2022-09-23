@@ -1,9 +1,9 @@
 .container_card {
-    display: flex;
-    flex-direction: row;
-    margin: 10px 10px;
-    color: white;
-    background-color: rgb(64, 84, 114);
-    height: 100px;
-    width: 80%;
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px;
+	color: white;
+	background-color: rgb(64, 84, 114);
+	height: 100px;
+	width: 80%;
 }

@@ -1,32 +1,37 @@
-.sidebar{
-    visibility: hidden;
-}
-.sidebar ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: rgba(19, 39, 79, 1);
-    border: 1px solid black;
-    border-bottom: none;
+.sidebar {
+	display: hidden;
+	margin-top: 10px;
+	margin-left: 2px;
+
 }
 
-.sidebar li{
-    text-align: center;
+.sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: rgba(19, 39, 79, 1);
+	border-left: 2px solid black;
+}
+
+.sidebar li {
+	text-align: center;
 }
 
 
-.sidebar li a{
-    text-decoration: none;
-    color: white;
-    display: block;
-    font-size: 20px;
+.sidebar li a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 20px;
 }
-.sidebar li a:hover{
-    background-color: black;
+
+.sidebar li a:hover {
+	background-color: black;
 }
+
 .sidebar li a:active {
-    color: black;
-    background-color: rgba(31, 48, 94, 1);
+	color: black;
+	background-color: rgba(31, 48, 94, 1);
 }
-
