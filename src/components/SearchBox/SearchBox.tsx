@@ -21,8 +21,18 @@ export default function SearchBox() {
 
 	return (
 		<div className={styles.search}>
-			<input className={styles.search_box} type='text' autoComplete='on' name='search' placeholder=' Pesquisar ...' value={busca} onChange={(ev) => setBusca(ev.target.value)} maxLength={20} onMouseOver={toggleList} onMouseOut={toggleList}></input >
-			<ul style={{visibility: isOpenList ? "visible" : "hidden"}} className={styles.search_list}>
+			<input className={styles.search_box} 
+			type='text'  
+			name='searchbar' 
+			placeholder='Pesquisar' 
+			value={busca} 
+			onChange={(ev) => setBusca(ev.target.value)} 
+			maxLength={20} 
+			onMouseOver={toggleList} 
+			onMouseOut={toggleList}>
+			</input >
+			
+			<ul style={{ visibility: isOpenList ? "visible" : "hidden" }} className={styles.search_list}>
 				{articleFilter.map((article) => (
 					<li key={article}>{article}</li>
 				))}

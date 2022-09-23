@@ -2,13 +2,10 @@ import Link from 'next/link';
 import styles from './Sidebar.module.css'
 
 
-export interface Toggle{
-	switch?: boolean;
-}
 
-export default function Sidebar(props: Toggle): JSX.Element  {
+export default function Sidebar()  {
 	return (
-		<div style={{display: props.switch ? "block" : "none"}} className={styles.sidebar}>
+		<div  className={styles.sidebar}>
 			<ul>
 				<li>
 					<Link href='/musculacao'>Musculação</Link>

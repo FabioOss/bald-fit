@@ -17,7 +17,7 @@ export default function Topbar() {
 			<div className={styles.container}>
 				<div className={styles.sidebar}>
 					<FaBars onClick={toggle}/>
-					<Sidebar switch={isOpen}/>
+					{isOpen && <Sidebar /> }
 				</div>
 				<div className={styles.title}>
 					<h1><Link href='/'>BaldFit</Link> <Link href='/'><GiMuscleUp /></Link></h1>
